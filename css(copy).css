@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'MuseoModerno', cursive;
+}
+
+#pagepiling .section{
+    text-align: center;
+}
+
+#pagepiling .section h2{
+    color: #fff;
+    font-size: 10em;
+    text-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+#pagepiling .section.sec1{
+    background: url(Images/1.jpg);
+    background-size: cover;
+}
+
+#pagepiling .section.sec2{
+    background: url(Images/2.png);
+    background-size: cover;
+}
+
+#pagepiling .section.sec3{
+    background: url(Images/3.jpg);
+    background-size: cover;
+}
+
+#pagepiling .section.sec4{
+    background: url(Images/4.jpg);
+    background-size: cover;
+}
+
+#pagepiling .section.sec5{
+    background: url(Images/5.jpg);
+    background-size: cover;
+}
+
+#pagepiling .section.sec2 p{
+    text-align: center;
+    font-size: 24px;
+    font-family: 'MuseoMonoa', cursive;
+    color: white;
+}

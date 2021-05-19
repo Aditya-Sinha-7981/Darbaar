@@ -9,20 +9,43 @@
         <link href="https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap" rel="stylesheet">
     </head>
     <body>
+        <div class="box-area">
+            <header>
+                <div class="wrapper" >
+                    <img src="Images/Logo.png" class="logo">
+                    <div class="logo-text">
+                        <a href="#">Darbaar</a>
+                    </div>
+                    <nav>
+                        <a href="#Darbaar-page">Darbaar</a>
+                        <a href="#Discover-page">Discover</a>
+                        <a href="#JoinUs-page">Join Us</a>
+                    </nav>
+                </div>
+            </header>
+        </div>  
+
+
         <div id="pagepiling">
-            <div class="section sec1"><h2>Video</h2>
+            <div class="section sec1">
+                <h2>Video</h2>
                 
             </div>
-            <div class="section sec2"><h2>Darbaar</h2>
+            <div class="section sec2">
+                <h2>Darbaar</h2>
                 <p>We will have the Darbaar page here</p>
+                
             </div>
-            <div class="section sec3"><h2>Discover</h2>
+            <div class="section sec3">
+                <h2>Discover</h2>
             
             </div>
-            <div class="section sec4"><h2>Live count</h2>
+            <div class="section sec4">
+                <h2>Live count</h2>
 
             </div>
-            <div class="section sec5"><h2>Join us</h2>
+            <div class="section sec5">
+                <h2>Join us</h2>
 
             </div>
         </div>
@@ -33,6 +56,10 @@
         <script type="text/javascript">
             $(document).ready(function() {
                 $('#pagepiling').pagepiling({
+                    anchors: ['Video', 'Darbaar-page', 'Discover-page', 'Discord-page', 'JoinUs-page'],
+                    scrollingSpeed: 50,
+                    animateAnchor: true,
+                    easing: 'swing',
                     navigation: {
                         'textColor': '#000',
                         'bulletsColor': '#000',

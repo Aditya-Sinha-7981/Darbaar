@@ -56,6 +56,7 @@ nav ul li a{
     text-decoration: none;
     color: #333;
     font-size: 40px;
+    /* z-index: -1; */
 }
 
 .logo{
@@ -69,7 +70,7 @@ nav ul li a{
     position: absolute;
     left: 10px;
     /* top: 10px; */
-    font-size: 40px
+    font-size: 40px;
 }
 
 .container-navbar{
@@ -83,6 +84,7 @@ nav ul li a{
     height: 12vh;
     margin: 0;
     display: flex;
+    /* z-index: -1; */
 }
 
 nav{
@@ -92,6 +94,10 @@ nav{
     margin-top: 10px;
     background: transparent;
     text-align: end;
-    background: url(Images/);
+    background: url(Images/2.png);
 } 
+
+header{
+    overflow: hidden;
+}
 

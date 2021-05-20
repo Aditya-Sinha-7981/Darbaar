@@ -26,25 +26,25 @@
 }
 
 #pagepiling .section.sec3{
-    background: #2F3038;
+    background: url(Images/3.jpg);
     background-size: cover;
 }
 
 #pagepiling .section.sec4{
-    background: linear-gradient(285.03deg, #3B3A48 4.02%, #06162E 99.72%);
+    background: url(Images/4.jpg);
     background-size: cover;
 }
 
 #pagepiling .section.sec5{
-    background: #2F3038;
+    background: url(Images/5.jpg);
     background-size: cover;
 }
 
 #pagepiling .section.sec2 p{
     text-align: center;
     font-size: 24px;
-    font-family: 'MuseoMonoa', cursive;
-    color: white;
+    color: #fff;
+    font-family: 'MuseoMonoa', cursive;  
 }
 
 body{
@@ -52,7 +52,7 @@ body{
 }
 
 .wrapper{
-    width: 1170px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -75,28 +75,8 @@ header{
     color: white;
     position: absolute;
     left: 110px;
-    
-}
-
-nav{
-    float: right;
-    line-height: 100px;
-    text-decoration: none;
-    position: absolute;
-    top: 0px;
-    right: 10px; 
-    font-size: 20px;
-}
-
-nav a{
-    text-decoration: none;
-    letter-spacing: 4px;
-    font-size: 20px;
-    margin: 0 10px;
-    color: white;
-    font-size: 25px;
-    font-weight: 550;
-    padding: 0 0 0 30px;   
+    top: 8px;
+    cursor: default;
 }
 
 .logo{
@@ -104,6 +84,167 @@ nav a{
     width: 80px;
     height: 80px;
     border-radius: 50%;
+    left: 20px;
+    top: 20px;
+}
+
+
+.nav-list{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    top: 30px;
+    right: 0;
+}
+
+.nav-item{
+    list-style: none;
+    margin-right: 2rem;
+}
+
+.nav-item1{
+    list-style: none;
+    margin-right: 2rem;
+}
+
+.nav-item1 button{
+    background: linear-gradient(94deg, rgba(66,69,97,1) 0%, rgba(39,228,240,1) 100%);
+}
+
+.nav-item1 button:hover{
+    background: linear-gradient(94deg, rgba(39,228,240,1) 0%, rgba(66,69,97,1) 100%);
+    transition: 1s;
+}
+
+.nav-item a{
+    color: white;
+    text-decoration: none;
+}
+
+button{
+    background: transparent;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    align-items: center;
+    outline: none;
+    color: white;
+    border-radius: 25px;
+}
+button:hover{
+    background:#EEBD40;
+    color: black;
+    border-color: black;
+    transition: 0.5s;
+}
+
+#pagepiling .section.sec2 .sec2-text{
+    width: 50%;
+    position: absolute;
+    top: 130px;
+    right: 50px;
+}
+
+#pagepiling .section.sec2 .sec2-text h2{
+    font-size: 110px;
+    text-align: start;
+    color: #EEBD40;
+    position: absolute;
     left: 10px;
-    top: 10px;
+}
+
+#pagepiling .section.sec2 .sec2-text h3{
+    font-size: 110px;
+    text-align: start;
+    color: #EEBD40;
+    position: absolute;
+    top: 130px;
+    left: 10px;
+}
+
+#pagepiling .section.sec2 .sec2-text p{
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    font-family: 'Lexend Deca', cursive;
+    text-align: start;
+    top: 330px;
+    left: 10px;
+}
+
+#pagepiling .section.sec2 .sec2-text a{
+    position: absolute;
+    text-align: start;
+    text-decoration: none;
+    font-family: 'Lexend Deca', cursive;
+    color: #EEBD40;
+    top: 450px;
+    left: 10px;
+    font-size: 30px
+}
+
+#pagepiling .section.sec1 button{
+    position: absolute;
+    font-size: 40px;
+    right: 15px;
+    top: 650px;
+    transition: 0.5s;
+}
+
+#pagepiling .section.sec2 #button2{
+    position: absolute;
+    font-size: 40px;
+    right: 40px;
+    top: 530px;
+    transition: 0.5s;
+}
+
+#pagepiling .section.sec2 #button3{
+    position: absolute;
+    font-size: 40px;
+    right: -40px;
+    top: 530px;
+    transition: 0.5s;
+} 
+
+#pagepiling .section.sec3 #button4{
+    position: absolute;
+    font-size: 40px;
+    right: 90px;
+    top: 670px;
+    transition: 0.5s;
+}
+
+#pagepiling .section.sec3 #button5{
+    position: absolute;
+    font-size: 40px;
+    right: 10px;
+    top: 670px;
+    transition: 0.5s;
+}
+
+#pagepiling .section.sec4 #button6{
+    position: absolute;
+    font-size: 40px;
+    right: 90px;
+    top: 670px;
+    transition: 0.5s;
+}
+
+#pagepiling .section.sec4 #button7{
+    position: absolute;
+    font-size: 40px;
+    right: 10px;
+    top: 670px;
+    transition: 0.5s;
+}
+
+#pagepiling .section.sec5 #button8{
+    position: absolute;
+    font-size: 40px;
+    right: 20px;
+    top: 670px;
+    transition: 0.5s;
 }

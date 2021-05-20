@@ -2,11 +2,13 @@
 <html>
     <head>
         <title>Template for now</title>
-        <!-- <link rel="stylesheet" href="css.css"> -->
-        <link rel="stylesheet" href="css(copy).css">
+        <link rel="stylesheet" href="css.css">
+        <!-- <link rel="stylesheet" href="css(copy).css"> -->
         <link rel="stylesheet" href="jquery.pagepiling.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
     </head>
     <body>
         <div class="box-area">
@@ -16,11 +18,21 @@
                     <div class="logo-text">
                         <a href="#">Darbaar</a>
                     </div>
-                    <nav>
-                        <a href="#Darbaar-page">Darbaar</a>
-                        <a href="#Discover-page">Discover</a>
-                        <a href="#JoinUs-page">Join Us</a>
-                    </nav>
+                   <nav>
+                       <div class="btn-primary">
+                            <ul class="nav-list">
+                                <li class="nav-item">
+                                    <button id="Dar-button">Darbaar</button>
+                                </li>
+                                <li class="nav-item">
+                                    <button id="Dis-button">Discover</button>
+                                </li>
+                                <li class="nav-item1">
+                                    <button id="Join-button">Join Us</button>
+                                </li>
+                            </ul>
+                       </div>        
+                   </nav>
                 </div>
             </header>
         </div>  
@@ -29,24 +41,33 @@
         <div id="pagepiling">
             <div class="section sec1">
                 <h2>Video</h2>
-                
+
+                <button id="button1">></button>
             </div>
             <div class="section sec2">
-                <h2>Darbaar</h2>
-                <p>We will have the Darbaar page here</p>
+                <div class="sec2-text">
+                    <h2>Enjoyed Video</h2>
+                    <h3>Frames?</h3>
+                    <p>What's next?</p>
+                    <a href="#Discover-page">DISCOVER -></a>
+                    <button id="button2"><</button>
+                    <button id="button3">></button>
+                </div>
                 
             </div>
             <div class="section sec3">
                 <h2>Discover</h2>
-            
+                <button id="button4"><</button>
+                <button id="button5">></button>
             </div>
             <div class="section sec4">
                 <h2>Live count</h2>
-
+                <button id="button6"><</button>
+                <button id="button7">></button>
             </div>
             <div class="section sec5">
                 <h2>Join us</h2>
-
+                <button id="button8"><</button>
             </div>
         </div>
         
@@ -68,6 +89,50 @@
                     },
                 });
             });
+
+            document.getElementById("Dar-button").onclick = function(){
+                location.href = "#Darbaar-page";
+            }
+
+            document.getElementById("Dis-button").onclick = function(){
+                location.href = "#Discover-page";
+            }
+
+            document.getElementById("Join-button").onclick = function(){
+                location.href = "#JoinUs-page";
+            }
+
+            document.getElementById("button1").onclick = function(){
+                location.href = "#Darbaar-page";
+            }
+
+            document.getElementById("button2").onclick = function(){
+                location.href = "#Video";
+            }
+
+            document.getElementById("button3").onclick = function(){
+                location.href = "#Discover-page";
+            }
+
+            document.getElementById("button4").onclick = function(){
+                location.href = "#Darbaar-page";
+            }
+
+            document.getElementById("button5").onclick = function(){
+                location.href = "#Discord-page";
+            }
+
+            document.getElementById("button6").onclick = function(){
+                location.href = "#Discover-page";
+            }
+
+            document.getElementById("button7").onclick = function(){
+                location.href = "#JoinUs-page";
+            }
+
+            document.getElementById("button8").onclick = function(){
+                location.href = "#Discord-page";
+            }
         </script>
     </body>
 </html>

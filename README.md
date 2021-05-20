@@ -1,5 +1,7 @@
 # Darbaar
 
-We have the template in Template.html and the page with navbar issue in Template(Testing).html
+Navbar issues are resolved and buttons are added.
 
-We gotta sort that issue.
+Waiting for images to complete first page and waiting for design of 2nd page.
+
+Trying to publish.

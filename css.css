@@ -109,11 +109,15 @@ header{
 }
 
 .nav-item1 button{
-    background: linear-gradient(94deg, rgba(66,69,97,1) 0%, rgba(39,228,240,1) 100%);
+    /* background: linear-gradient(94deg, rgba(66,69,97,1) 0%, rgba(39,228,240,1) 100%); */
+    /* background: rgb(39,42,71); */
+    background: linear-gradient(59deg, rgba(39,42,71,1) 19%, rgba(39,228,240,1) 100%);
 }
 
 .nav-item1 button:hover{
-    background: linear-gradient(94deg, rgba(39,228,240,1) 0%, rgba(66,69,97,1) 100%);
+    /* background: linear-gradient(94deg, rgba(39,228,240,1) 0%, rgba(66,69,97,1) 100%); */
+    /* background: rgb(39,228,240); */
+    background: linear-gradient(59deg, rgba(39,228,240,1) 0%, rgba(39,42,71,1) 81%);
     transition: 1s;
 }
 

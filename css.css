@@ -26,7 +26,7 @@
 }
 
 #pagepiling .section.sec3{
-    background: url(Images/3.jpg);
+    background: linear-gradient(285.03deg, #3B3A48 4.02%, #06162E 99.72%);
     background-size: cover;
 }
 
@@ -175,7 +175,7 @@ button:hover{
     position: absolute;
     color: white;
     font-size: 40px;
-    font-family: 'Lexend Deca', cursive;
+    font-family: 'Ubuntu', sans-serif;
     text-align: start;
     top: 330px;
     left: 10px;
@@ -185,7 +185,7 @@ button:hover{
     position: absolute;
     text-align: start;
     text-decoration: none;
-    font-family: 'Lexend Deca', cursive;
+    font-family: 'Ubuntu', sans-serif;
     color: #EEBD40;
     top: 450px;
     left: 10px;
@@ -255,3 +255,46 @@ button:hover{
     top: 670px;
     transition: 0.5s;
 }
+
+#pagepiling .section.sec3 .sec3-text h2{
+    font-size: 150px;
+    text-align: start;
+    color: #EEBD40;
+    position: absolute;
+    left: 50px;
+    top: 150px;
+}
+
+#pagepiling .section.sec3 .sec3-text a{
+    position: absolute;
+    text-align: start;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    color: #EEBD40;
+    top: 550px;
+    left: 50px;
+    font-size: 45px
+}
+
+#pagepiling .section.sec3 .sec3-text .text1{
+    position: absolute;
+    text-align: start;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+    top: 390px;
+    left: 50px;
+    font-size: 35px
+}
+
+#pagepiling .section.sec3 .sec3-text .text2{
+    position: absolute;
+    text-align: start;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+    top: 450px;
+    left: 50px;
+    font-size: 35px
+}
+

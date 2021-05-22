@@ -298,3 +298,62 @@ button:hover{
     font-size: 35px
 }
 
+.panel1{
+    color: white;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.548);
+    right: 440px;
+    top: 170px;
+    border-radius: 3%;
+
+}
+.panel2{
+    color: white;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.548);
+    right: 160px;
+    top: 150px;
+    border-radius: 3%;
+   
+}
+.panel3{
+    color: white;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.548);
+    right: 440px;
+    top: 450px;
+    border-radius: 3%;
+}
+.panel4{
+    color: white;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.548);
+    right: 160px;
+    top: 430px;
+    border-radius: 3%;
+    
+}
+.image1{
+    border-radius: 50%;
+    opacity: 50%;
+}
+.image2{
+    border-radius: 50%;
+    opacity: 50%;
+}
+.image3{
+    border-radius: 50%;
+    opacity: 50%;
+}
+.image4{
+    border-radius: 50%;
+    opacity: 50%;
+}

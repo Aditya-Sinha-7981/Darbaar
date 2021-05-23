@@ -1,7 +1,5 @@
 # Darbaar
 
-Navbar issues are resolved and buttons are added.
+Page 2 and 3 are completely done(iamges being the only exception)
 
-Waiting for images to complete first page and waiting for design of 2nd page.
-
-Trying to publish.
+Andriod view-port issues.

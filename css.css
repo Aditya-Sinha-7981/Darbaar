@@ -26,6 +26,8 @@
 }
 
 #pagepiling .section.sec3{
+    /* background: url(Images/Discord-background.png);
+    opacity: 100%; */
     background: linear-gradient(285.03deg, #3B3A48 4.02%, #06162E 99.72%);
     background-size: cover;
 }
@@ -147,6 +149,22 @@ button:hover{
     transition: 0.5s;
 }
 
+#pagepiling .section.sec2 .sec2-images .circle{
+    height: 620px;
+    width: 670px;
+    position: absolute;
+    left: -10px;
+    top: 150px;
+}
+
+#pagepiling .section.sec2 .sec2-images .person{
+    height: 700px;
+    width: 650px;
+    position: absolute;
+    left: -30px;
+    bottom: 0;
+}
+
 #pagepiling .section.sec2 .sec2-text{
     width: 50%;
     position: absolute;
@@ -193,6 +211,7 @@ button:hover{
 }
 
 #pagepiling .section.sec1 button{
+    /* right */
     position: absolute;
     font-size: 40px;
     right: 15px;
@@ -201,6 +220,7 @@ button:hover{
 }
 
 #pagepiling .section.sec2 #button2{
+    /* left */
     position: absolute;
     font-size: 40px;
     right: 40px;
@@ -209,6 +229,7 @@ button:hover{
 }
 
 #pagepiling .section.sec2 #button3{
+    /* right */
     position: absolute;
     font-size: 40px;
     right: -40px;
@@ -217,6 +238,7 @@ button:hover{
 } 
 
 #pagepiling .section.sec3 #button4{
+    /* left */
     position: absolute;
     font-size: 40px;
     right: 90px;
@@ -225,6 +247,7 @@ button:hover{
 }
 
 #pagepiling .section.sec3 #button5{
+    /* right */
     position: absolute;
     font-size: 40px;
     right: 10px;
@@ -233,6 +256,7 @@ button:hover{
 }
 
 #pagepiling .section.sec4 #button6{
+    /* left */
     position: absolute;
     font-size: 40px;
     right: 90px;
@@ -241,6 +265,7 @@ button:hover{
 }
 
 #pagepiling .section.sec4 #button7{
+    /* right */
     position: absolute;
     font-size: 40px;
     right: 10px;
@@ -249,9 +274,10 @@ button:hover{
 }
 
 #pagepiling .section.sec5 #button8{
+    /* left */
     position: absolute;
     font-size: 40px;
-    right: 20px;
+    right: 85px;
     top: 670px;
     transition: 0.5s;
 }
@@ -305,21 +331,21 @@ button:hover{
     height: 250px;
     background-color: rgba(0, 0, 0, 0.548);
     right: 440px;
-    top: 170px;
+    top: 190px;
     border-radius: 3%;
-
 }
+
 .panel2{
     color: white;
     position: absolute;
     width: 250px;
     height: 250px;
     background-color: rgba(0, 0, 0, 0.548);
-    right: 160px;
-    top: 150px;
+    right: 120px;
+    top: 120px;
     border-radius: 3%;
-   
 }
+
 .panel3{
     color: white;
     position: absolute;
@@ -327,33 +353,65 @@ button:hover{
     height: 250px;
     background-color: rgba(0, 0, 0, 0.548);
     right: 440px;
-    top: 450px;
+    top: 480px;
     border-radius: 3%;
 }
+
 .panel4{
     color: white;
     position: absolute;
     width: 250px;
     height: 250px;
     background-color: rgba(0, 0, 0, 0.548);
-    right: 160px;
-    top: 430px;
+    right: 120px;
+    top: 410px;
     border-radius: 3%;
-    
 }
+
 .image1{
     border-radius: 50%;
-    opacity: 50%;
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
 }
+
 .image2{
     border-radius: 50%;
-    opacity: 50%;
+    width: 150px;
+    margin-top: 20px;
+    height: 150px;
 }
+
 .image3{
     border-radius: 50%;
-    opacity: 50%;
+    width: 150px;
+    margin-top: 20px;
+    height: 150px;
 }
+
 .image4{
     border-radius: 50%;
-    opacity: 50%;
+    width: 150px;
+    margin-top: 20px;
+    height: 150px;
+}
+
+.panel1 p{
+    font-size: 23px;
+    font-family: 'ubuntu';
+}
+
+.panel2 p{
+    font-size: 23px;
+    font-family: 'ubuntu';
+}
+
+.panel3 p{
+    font-size: 23px;
+    font-family: 'ubuntu';
+}
+
+.panel4 p{
+    font-size: 23px;
+    font-family: 'ubuntu';
 }

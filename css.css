@@ -293,6 +293,18 @@ button:hover{
     width: 50%;
 }
 
+#pagepiling .section.sec3 .sec3-text{
+    width: 50%;
+    float: left;
+    height: 100%;
+}
+
+#pagepiling .section.sec3 .four-buttons{
+    margin-top: 110px;
+    float: right;
+    width: 50%;
+}
+
 #pagepiling .section.sec3 .sec3-text h2{
     font-size: 110px;
     text-align: start;

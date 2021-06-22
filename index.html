@@ -2,9 +2,11 @@
 <html>
     <head>
         <title>Template for now</title>
+        <body class="container full-height-grow"></body> 
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css.css">
-        <!-- <link rel="stylesheet" href="css(copy).css"> -->
+        <link rel="stylesheet" href="responsive.css">
+        <script src="https://kit.fontawesome.com/909793b399.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="jquery.pagepiling.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap" rel="stylesheet">
@@ -14,7 +16,7 @@
     <body>
         <div class="box-area">
             <header>
-                <div class="wrapper" >
+                <!-- <div class="wrapper"> -->
                     <img src="Images/Logo.png" class="logo">
                     <div class="logo-text">
                         <a href="#">Darbaar</a>
@@ -34,81 +36,120 @@
                             </ul>
                        </div>        
                     </nav>
-                </div>
+                <!-- </div> -->
             </header>
         </div>  
 
 
         <div id="pagepiling">
             <div class="section sec1">
-                <h2>Video</h2>
-
-                <button id="button1">></button>
-                <!-- right -->
-            </div>
-            <div class="section sec2">
-                <div class="sec2-images">
-                    <img src="Images/Golden-circle.png" class="circle">
-                    <img src="Images/Prakhar.png" class="person">
-                </div>
-                <div class="sec2-text">
-                    <h2>Enjoyed Video</h2>
-                    <h3>Frames?</h3>
-                    <p>What's next?</p>
-                    <a href="#Discover-page">DISCOVER -></a>
-                    <button id="button2"><</button>
-                    <!-- left -->
-                    <button id="button3">></button>
+                <h2 class="darbaar-h2">Video</h2>
+                <div class="navigation-wrapper">
+                    <button id="button1"><i class="fas fa-arrow-down"></i></button>
                     <!-- right -->
                 </div>
-                
+            </div>
+            <div class="section sec2">
+                <div class="wrapper">
+                    <div class="sec2-images">
+                        <!-- <img src="Images/Golden-circle-nobg.png" class="circle">
+                        <img src="Images/Prakhar.png" class="person"> -->
+                        <img src="Images/Prakhar + Circle.png" class="person-circle">
+                    </div>
+                    <div class="sec2-text">
+                        <h2 class="darbaar-h2">Enjoyed Video Frames?</h2>
+                        <p>What's next?</p>
+                        <a href="#Discover-page">DISCOVER <i class="fas fa-arrow-right"></i></a>
+                        <div class="navigation-wrapper">
+                            <button id="button2"><i class="fas fa-arrow-up"></i></button>
+                            <!-- right -->
+                            <button id="button3"><i class="fas fa-arrow-down"></i></button>
+                            <!-- left -->
+                        </div>
+                    </div>
+                </div>    
             </div>
             <div class="section sec3">
-                
-                <div class="sec3-text">
-                    <h2>Discover</h2>
-                    <p class="text1">What are you passionate about?</p>
-                    <p class="text2">Come join us and find out!</p>
-                    <a href="#Discord-page">Join Us -></a>
+                <div class="wrapper">
+                    <div class="sec3-text">
+                        <h2>Discover</h2>
+                        <p class="text1">
+                            <pre>What are you passionate about? 
+Come join us and find out!</pre>
+                        </p>
+                        <a href="#Discord-page">Join Us <i class="fas fa-arrow-right"></i></a>
                     </div>
 
-                <div class="panel1">
-                    <img src="Images/1.jpg" class="image1" >
-                    <!-- Up-left panel -->
-                    <p>Are you aspiring to <br> become Speaker?</p>
-                </div>    
-                <div class="panel2">
-                    <!-- Up-right panel -->
-                    <img src="Images/2.png" class="image2">
-                    <p>You love discussing <br> Ideas?</p>
-                </div> 
-                <div class="panel3">
-                    <!-- Down-left panel -->
-                    <img src="Images/3.jpg" class="image3">
-                    <p>Are you shy an want <br> to socialize?</p>
-                </div> 
-                <div class="panel4">
-                    <!-- Down-right panel -->
-                    <img src="Images/4.jpg" class="image4">
-                    <p>Are you shy and want <br> to socialize?</p>
-                </div> 
+                    <div class="four-buttons">
+                        <div class="panel panel1">
+                            <img src="Images/1.jpg" class="image1" >
+                            <!-- Up-left panel -->
+                            <p>Are you aspiring to <br> become Speaker?</p>
+                        </div>    
+                        <div class="panel panel2">
+                            <!-- Up-right panel -->
+                            <img src="Images/2.png" class="image2">
+                            <p>You love discussing <br> Ideas?</p>
+                        </div> 
+                        <div class="panel panel3">
+                            <!-- Down-left panel -->
+                            <img src="Images/3.jpg" class="image3">
+                            <p>Are you shy an want <br> to socialize?</p>
+                        </div> 
+                        <div class="panel panel4">
+                            <!-- Down-right panel -->
+                            <img src="Images/4.jpg" class="image4">
+                            <p>Are you shy and want <br> to socialize?</p>
+                        </div> 
+                        <a href="#Discord-page">Join Us <i class="fas fa-arrow-right"></i></a>
+                    </div>
 
-                <button id="button4"><</button>
-                <!-- left -->
-                <button id="button5">></button>
-                <!-- right -->
+                    <div class="navigation-wrapper">
+                        <button id="button4"><i class="fas fa-arrow-up"></i></button>
+                        <!-- right -->
+                        <button id="button5"><i class="fas fa-arrow-down"></i></button>
+                        <!-- left -->
+                    </div>
+                </div>
             </div>
             <div class="section sec4">
-                <h2>Live count</h2>
-                <button id="button6"><</button>
-                <!-- left -->
-                <button id="button7">></button>
-                <!-- right -->
+                <div class="wrapper">
+                    <h2>You are part of</h2>
+                    <p>Young, Passionate ever growing community <br> and do you know the count of members</p>
+                    <div class="boxes box1">
+                        <p><b>1</b></p>
+                    </div>
+                    <div class="boxes box2">
+                        <p><b>0</b></p>
+                    </div>
+                    <div class="boxes box3">
+                        <p><b>0</b></p>
+                    </div>
+                    <div class="boxes box4">
+                        <p><b>0</b></p>
+                    </div>
+                    <div class="boxes box5">
+                        <p><b>0</b></p>
+                    </div>
+                    <div class="boxes box6">
+                        <p><b>+</b></p>
+                    </div>
+                    <div class="navigation-wrapper">
+                        <button id="button6"><i class="fas fa-arrow-up"></i></button>
+                        <!-- left -->
+                        <button id="button7"><i class="fas fa-arrow-down"></i></button>
+                        <!-- right -->
+                    </div>
+                </div>
             </div>
             <div class="section sec5">
-                <h2>Join us</h2>
-                <button id="button8"><</button>
-                <!-- left -->
+                <h2>What are you <br> waiting for?</h2>
+                <img src="Images/Discord-logo.png" class="logo-d">
+                <a href="#">JOIN US <i class="fas fa-arrow-right"></i></a>
+                <div class="navigation-wrapper">
+                    <button id="button8"><i class="fas fa-arrow-up"></i></button>
+                    <!-- left -->
+                </div>
             </div>
         </div>
         
@@ -119,12 +160,12 @@
             $(document).ready(function() {
                 $('#pagepiling').pagepiling({
                     anchors: ['Video', 'Darbaar-page', 'Discover-page', 'Discord-page', 'JoinUs-page'],
-                    scrollingSpeed: 50,
+                    scrollingSpeed: 100,
                     animateAnchor: true,
                     easing: 'swing',
                     navigation: {
                         'textColor': '#000',
-                        'bulletsColor': '#000',
+                        'bulletsColor': '#fff',
                         'position': 'right',
                         'tooltips': ['Landing Page', 'Darbaar', 'Discover', 'Member Count' , 'Join Us']
                     },

@@ -1,7 +1,7 @@
 @media screen and (max-width: 768px) {
     .person-circle{
-        width: 540px;
-        margin-bottom: -540px;
+        width: 530px;
+        margin-bottom: -530px;
     }
     .darbaar-h2{
         font-size: 60px;
@@ -9,7 +9,7 @@
         z-index: 1;
         padding: 0;
         position: relative;
-        top: -110px;
+        top: -130px;
     }
 
     .sec2-images{
@@ -26,14 +26,14 @@
         z-index: 1;
         font-size: 55px;
         position: relative;
-        top: 110px;
+        top: 120px;
     }
 
     #pagepiling .section.sec2 .sec2-text a{
         z-index: 1;
         font-size: 45px;
         position: relative;
-        top: 90px;
+        top: 110px;
     }
 
     #pagepiling .section.sec4 h2{
@@ -120,6 +120,7 @@
         margin-top: 0;
         width: 100%;
         justify-content: center;
+        margin-left: -15px;
     }
 
     .wrapper1{

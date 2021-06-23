@@ -353,7 +353,7 @@ button:hover{
     display: inline-block;
     width: 100%;
     padding: 24px 0;
-    margin-right: 24px;
+    margin-right: 32px;
     margin-bottom: 32px;
 }
 
@@ -516,16 +516,14 @@ button:hover{
     position: absolute;
     right: 10px;
     bottom: 50px;
-<<<<<<< Updated upstream
-=======
 }
 
 .person-circle{
-    width: 650px;
+    width: 630px;
     left: 0px;
-    margin-left: -32px;
-    margin-bottom: -50px;
-    margin-top: 42px;
+    margin-left: -36px;
+    margin-bottom: -35px;
+    margin-top: 60px;
 }
 
 .wrapper1{
@@ -535,5 +533,4 @@ button:hover{
 
 .special-link{
     display: none;
->>>>>>> Stashed changes
 }

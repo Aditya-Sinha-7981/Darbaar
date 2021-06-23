@@ -155,8 +155,6 @@ button:hover{
 
 .sec2-images{
     width: 50%;
-    float: left;
-    position: relative;
 }
 
 #pagepiling .section.sec2 .sec2-images .circle{
@@ -175,9 +173,10 @@ button:hover{
 .sec2-text{
     width: 50%;
     right: 50px;
-    /* float: right; */
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
 }
 
 .darbaar-h2{
@@ -193,16 +192,15 @@ button:hover{
     color: white;
     font-size: 40px;
     font-family: 'Ubuntu', sans-serif;
-    text-align: start;
     line-height: 235px;
 }
 
 #pagepiling .section.sec2 .sec2-text a{
-    text-align: start;
     text-decoration: none;
     font-family: 'Ubuntu', sans-serif;
     color: #EEBD40;
     font-size: 30px;
+    font-weight: bold;
 }
 
 #pagepiling .section.sec2 .buttons{
@@ -283,14 +281,17 @@ button:hover{
 
 #pagepiling .section.sec3 .sec3-text{
     width: 50%;
-    float: left;
-    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 #pagepiling .section.sec3 .four-buttons{
     margin-top: 110px;
-    float: right;
     width: 50%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #pagepiling .section.sec3 .sec3-text{
@@ -315,13 +316,13 @@ button:hover{
 
 #pagepiling .section.sec3 .sec3-text a{
     text-decoration: none;
-    width: 100%;
+    /* width: 100%; */
     font-family: 'Ubuntu', sans-serif;
     color: #EEBD40;
     font-size: 45px;
     margin-top: 63px;
     /* float: left; */
-    text-align: start;
+    /* text-align: start; */
     display: block;
 }
 
@@ -362,6 +363,8 @@ button:hover{
     height: 250px;
     background-color: rgba(0, 0, 0, 0.548);
     border-radius: 3%;
+    position: relative;
+    top: 20px;
 }
 
 .panel2{
@@ -369,8 +372,8 @@ button:hover{
     width: 250px;
     height: 250px;
     background-color: rgba(0, 0, 0, 0.548);
-    right: 120px;
-    top: 120px;
+    position: relative;
+    top: -20px;
     border-radius: 3%;
 }
 
@@ -379,9 +382,9 @@ button:hover{
     width: 250px;
     height: 250px;
     background-color: rgba(0, 0, 0, 0.548);
-    right: 440px;
-    top: 480px;
     border-radius: 3%;
+    position: relative;
+    top: 20px;
 }
 
 .panel4{
@@ -389,8 +392,8 @@ button:hover{
     width: 250px;
     height: 250px;
     background-color: rgba(0, 0, 0, 0.548);
-    right: 120px;
-    top: 410px;
+    position: relative;
+    top: -20px;
     border-radius: 3%;
 }
 
@@ -476,8 +479,8 @@ button:hover{
 }
 
 #pagepiling .section.sec4 .boxes.box1{
-    padding-left: 45px;
-    padding-right: 45px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 #pagepiling .section.sec4 .boxes.box6{
@@ -513,4 +516,24 @@ button:hover{
     position: absolute;
     right: 10px;
     bottom: 50px;
+<<<<<<< Updated upstream
+=======
+}
+
+.person-circle{
+    width: 650px;
+    left: 0px;
+    margin-left: -32px;
+    margin-bottom: -50px;
+    margin-top: 42px;
+}
+
+.wrapper1{
+    display: flex;
+    flex-direction: row;
+}
+
+.special-link{
+    display: none;
+>>>>>>> Stashed changes
 }

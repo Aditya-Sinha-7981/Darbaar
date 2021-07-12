@@ -1,0 +1,191 @@
+@media screen and (max-width: 768px) {
+    .person-circle{
+        width: 530px;
+        margin-bottom: -530px;
+    }
+    .darbaar-h2{
+        font-size: 60px;
+        display: inline-block;
+        z-index: 1;
+        padding: 0;
+        position: relative;
+        top: -130px;
+    }
+
+    .sec2-images{
+        width: 100%;
+    }
+
+    .sec2-text{
+        width: 100%; 
+        justify-content: center;
+        align-items: center;
+    }
+
+    #pagepiling .section.sec2 .sec2-text p{
+        z-index: 1;
+        font-size: 55px;
+        position: relative;
+        top: 120px;
+    }
+
+    #pagepiling .section.sec2 .sec2-text a{
+        z-index: 1;
+        font-size: 45px;
+        position: relative;
+        top: 110px;
+    }
+
+    #pagepiling .section.sec4 h2{
+        font-size: 95px;
+        margin-top: 50px;
+    }
+
+    #pagepiling .section.sec4 p {
+        font-size: 30px;
+        margin-top: 70px;
+        margin-bottom: 100px;
+    }
+
+    #pagepiling .section.sec4 .boxes {
+        margin-top: 0;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 25px;
+        padding-top: 25px;
+        margin-right: 15px;
+    }
+
+    #pagepiling .section.sec4 .boxes p {
+        font-size: 60px;
+    }
+
+    #pagepiling .section.sec3 .sec3-text h2{
+        font-size: 45px;
+        margin-top: 0px;
+        position: relative;
+        top: 30px;
+    }
+
+    #pagepiling .section.sec3 .sec3-text pre{
+        font-size: 20px;
+        display: none;
+    }
+
+    #pagepiling .section.sec3 .sec3-text a{
+        font-size: 35px;
+        font-weight: bold;
+        margin-top: 0;
+        position: relative;
+        top: 570px;
+    }
+
+    .panel1{
+        height: 235px;
+    }
+
+    .panel2{
+        height: 235px;
+    }
+
+    .panel3{
+        height: 235px;
+    }
+
+    .panel4{
+        height: 235px;
+    }
+
+    .image1{
+        width: 140px;
+        height: 140px;
+    }
+
+    .image2{
+        width: 140px;
+        height: 140px;
+    }
+
+    .image3{
+        width: 140px;
+        height: 140px;
+    }
+
+    .image4{
+        width: 140px;
+        height: 140px;
+    }
+
+    #pagepiling .section.sec3 .four-buttons{
+        margin-top: 0;
+        width: 100%;
+        justify-content: center;
+        margin-left: -15px;
+    }
+
+    .wrapper1{
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    #pagepiling .section.sec3 .sec3-text{
+        width: 100%;
+        align-items: center;
+    }
+
+    .logo-text a{
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .nav-item1 button{
+        font-size: 20px;
+    }
+
+    .nav-item button{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .logo{
+        width: 50px;
+        height: 50px;
+        margin-left: 10px;
+    }
+
+    .logo-text a{
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .nav-item button{
+        font-size: 15px;
+    }
+
+    .nav-item1 button{
+        font-size: 15px;
+    }
+
+    .nav-item{
+        margin-right: 0px;
+    }
+
+    .nav-item1{
+        margin-right: 10px;
+    }
+
+    .darbaar-h2{
+        font-size: 36px;
+        top: -50px;
+    }
+
+    .person-circle{
+        width: 400px;
+        margin-left: 5px;
+    }
+
+    #pagepiling .section.sec2 .sec2-text p{
+        top: -20px;
+    }
+}
